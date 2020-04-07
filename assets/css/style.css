@@ -14,11 +14,14 @@ h1 {
     width: 100%;
     background-color: #041801;
     background-repeat: no-repeat;
+    float: left;
 }
 #titre {
     float: left;
     height: 155px;
     width: 100%;
+    height: 150px;
+    width: 1900px;
     background-color: white;
 }
 #menu { 
@@ -65,11 +68,19 @@ h2 {
     height: 266px;
     left: 29px;
     top: 371px;
+    width: 1900px;
+    background-color: rgba(185, 202, 139, 0.53);
+}
+#content {
+    float: left;
+    height: 660px;
+    width: 1900px;
+    background-color: tomato;
 }
 #evenement {
     float: left;
     height: 60px;
-    width: 100%;
+    width: 1900px;
     background-color: rgba(185, 202, 139, 0.53);
 }
 #evenementPhrase {
@@ -85,7 +96,7 @@ h2 {
     text-align: center;
     color: #204919;
 }
-/* début css présentation*/
+/* début css présentation sébastien*/
 .bouquets img{
     width: 200px;
     height: 200px;
@@ -111,3 +122,49 @@ figcaption{
 .presentationplants,.plants1,.plants2,.plants3{
     float: left;
 }
+/* Page occasion: Thomas*/
+.occasionConteneur {
+    width: 1900px;
+    height: 200px;
+    margin-top: 15px;
+    background-color: teal;
+}
+.occasionTextConteneur {
+    float: left;
+    width: 20%;
+    height: 200px;
+    background-color: wheat;
+}
+#weddingImages {
+    float: left;
+    width: 80%;
+    height: 200px;
+    background-color: blue;
+}
+.occasionText {
+    margin: 0 auto;
+    width: 230px;
+}
+.occasionText h2 {
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 0px;
+}
+.occasionText p {
+    font-size: 18px;
+    text-align: center;
+}
+.occasionImages {
+    text-align: center;
+}
+.occasionProducts {
+    float: left;
+    margin-left: 95px;
+    height: 160px;
+    width: 160px;
+}
+.occasionProducts figcaption {
+    text-align: center;
+}
+
+/* fin page occasion */
