@@ -101,26 +101,67 @@ li {
     width: 200px;
     height: 200px;
 }
+.presentationbouquet,.bouquet1,.bouquet2,.bouquet3{
+    float: left;
+}
+.presentationbouquet h2{
+    text-align: center;
+    font-size: 2em;
+}
+.presentationbouquet p{
+    font-size: 1.3em;
+    color: white;
+    width: 400px;
+    text-align: center;
+}
+.bouquets figcaption{
+    width: 200px;
+    text-align: center;
+    color: white;
+}
 .composition img{
     width: 200px;
     height: 200px;
+}
+.presentationcomposition,.composition1,.composition2,.composition3{
+    float: left;
+}
+.presentationcomposition h2{
+    text-align: center;
+    font-size: 2em;
+}
+.presentationcomposition p{
+    font-size: 1.3em;
+    color: white;
+    width: 400px;
+    text-align: center;
+}
+.composition figcaption{
+    width: 200px;
+    text-align: center;
+    color: white;
 }
 .plants img{
     width: 200px;
     height: 200px;
 }
-.bouquets figcaption{
-    width: 200px;
-    text-align: center;
-}
-.presentationbouquet,.bouquet1,.bouquet2,.bouquet3{
-    float: left;
-}
-.presentationcomposition,.composition1,.composition2,.composition3{
-    float: left
-}
 .presentationplants,.plants1,.plants2,.plants3{
     float: left;
+}
+.presentationplants h2{
+    text-align: center;
+    font-size: 2em;
+}
+.presentationplants p{
+    font-size: 1.3em;
+    color: white;
+    width: 400px;
+    text-align: center;
+}
+.plants figcaption{
+    width: 200px;
+    text-align: center;
+    color: white;
 }
 /* Page occasion: Thomas*/
 .occasionConteneur {
