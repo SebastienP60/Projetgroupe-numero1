@@ -14,7 +14,6 @@ h1 {
     width: 100%;
     background-color: #041801;
     background-repeat: no-repeat;
-    float: left;
 }
 #titre {
     float: left;
@@ -23,6 +22,7 @@ h1 {
     background-color: white;
 }
 #menu { 
+    margin-top: -55px;
     float: left;
     height: 60px;
     width: 100%;
@@ -34,22 +34,22 @@ li {
     font-size: 24px;
     width: 20.5%;
 }
-#menu li {
+nav li {
     text-align : center ;
     line-height: 40px ;
 }
-#menu li a 
+nav li a 
 {
     display: block ;
     text-decoration: none ;
     color : #000000;
 }
-#menu li:hover
+nav li:hover
 {
     background-color: #ff7506;
     border-radius: 10px;
 }
-#titre2 {
+h2 {
     display: none;
 }
 #imglogo {
@@ -66,7 +66,7 @@ li {
     left: 29px;
     top: 371px;
 }
-#paragraph {
+p {
     position: absolute;
     width: 718px;
     height: 396px;
@@ -88,10 +88,11 @@ li {
     background-color: rgba(185, 202, 139, 0.53);
 }
 #evenementPhrase {
-    width: 100%;
+    position: absolute;
+    width: 616px;
     height: 44px;
-    margin: 0 auto;
-    margin-top: 8px;
+    left: 383px;
+    top: 790px;
     font-family: "La Belle Aurore";
     font-style: normal;
     font-weight: normal;
@@ -99,76 +100,3 @@ li {
     text-align: center;
     color: #204919;
 }
-/* début css présentation sébastien*/
-.bouquets img{
-    width: 200px;
-    height: 200px;
-}
-.composition img{
-    width: 200px;
-    height: 200px;
-}
-.plants img{
-    width: 200px;
-    height: 200px;
-}
-figcaption{
-    width: 200px;
-    text-align: center;
-}
-.presentationbouquet,.bouquet1,.bouquet2,.bouquet3{
-    float: left;
-}
-.presentationcomposition,.composition1,.composition2,.composition3{
-    float: left
-}
-.presentationplants,.plants1,.plants2,.plants3{
-    float: left;
-}
-/* Page occasion: Thomas*/
-.occasionConteneur {
-    float: left;
-    width: 100%;
-    height: 200px;
-    margin-top: 50px;
-    background-color: teal;
-}
-.occasionTextConteneur {
-    float: left;
-    width: 20%;
-    height: 200px;
-    background-color: wheat;
-}
-#weddingImages {
-    float: left;
-    width: 80%;
-    height: 200px;
-    background-color: blue;
-}
-.occasionText {
-    margin: 0 auto;
-    width: 230px;
-}
-.occasionText h2 {
-    font-size: 48px;
-    text-align: center;
-    padding-bottom: 0px;
-}
-.occasionText p {
-    font-size: 18px;
-    text-align: center;
-}
-.occasionImages {
-    text-align: center;
-}
-.occasionProducts {
-    float: left;
-    margin-left: 95px;
-    height: 160px;
-    width: 160px;
-}
-.occasionProducts figcaption {
-    text-align: center;
-}
-
-/* fin page occasion */
