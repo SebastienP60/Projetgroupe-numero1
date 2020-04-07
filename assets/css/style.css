@@ -1,6 +1,6 @@
 h1 {
     margin-top: 15px;
-    width: 1383px;
+    width: 100%;
     font-family: "Parisienne";
     font-style: normal;
     font-weight: normal;
@@ -53,31 +53,28 @@ li {
     display: none;
 }
 #imglogo {
-    position: absolute;
-    width: 162px;
-    height: 155px;
-    left: 0px;
-    top: 0px;
+    float: left;
+    margin-left: 30px;
+}
+#presentationConteneur {
+    float: left;
+    margin-top: 200px;
+    height: 390px;
+    width: 100%;
 }
 #imgboutique {
-    position: absolute;
-    width: 605px;
-    height: 266px;
-    left: 29px;
-    top: 371px;
+    float: left;
+    width: 50%;
 }
 #paragraph {
-    position: absolute;
-    width: 718px;
-    height: 396px;
-    left: 651px;
-    top: 295px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 5%;
+    width: 40%;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 16px;
-    display: flex;
-    align-items: center;
     text-align: center;
     color: #FFA5A5;
 }
@@ -112,7 +109,7 @@ li {
     width: 200px;
     height: 200px;
 }
-figcaption{
+.bouquets figcaption{
     width: 200px;
     text-align: center;
 }
