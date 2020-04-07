@@ -100,3 +100,75 @@ nav li:hover
     text-align: center;
     color: #204919;
 }
+/* début css présentation sébastien*/
+.bouquets img{
+    width: 200px;
+    height: 200px;
+}
+.composition img{
+    width: 200px;
+    height: 200px;
+}
+.plants img{
+    width: 200px;
+    height: 200px;
+}
+figcaption{
+    width: 200px;
+    text-align: center;
+}
+.presentationbouquet,.bouquet1,.bouquet2,.bouquet3{
+    float: left;
+}
+.presentationcomposition,.composition1,.composition2,.composition3{
+    float: left
+}
+.presentationplants,.plants1,.plants2,.plants3{
+    float: left;
+}
+/* Page occasion: Thomas*/
+.occasionConteneur {
+    width: 1900px;
+    height: 200px;
+    margin-top: 15px;
+    background-color: teal;
+}
+.occasionTextConteneur {
+    float: left;
+    width: 20%;
+    height: 200px;
+    background-color: wheat;
+}
+#weddingImages {
+    float: left;
+    width: 80%;
+    height: 200px;
+    background-color: blue;
+}
+.occasionText {
+    margin: 0 auto;
+    width: 230px;
+}
+.occasionText h2 {
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 0px;
+}
+.occasionText p {
+    font-size: 18px;
+    text-align: center;
+}
+.occasionImages {
+    text-align: center;
+}
+.occasionProducts {
+    float: left;
+    margin-left: 95px;
+    height: 160px;
+    width: 160px;
+}
+.occasionProducts figcaption {
+    text-align: center;
+}
+
+/* fin page occasion */
