@@ -103,6 +103,7 @@ li {
 }
 .presentationbouquet,.bouquet1,.bouquet2,.bouquet3{
     float: left;
+    margin-left: 5%;
 }
 .presentationbouquet h2{
     text-align: center;
@@ -125,6 +126,7 @@ li {
 }
 .presentationcomposition,.composition1,.composition2,.composition3{
     float: left;
+    margin-left: 5%;
 }
 .presentationcomposition h2{
     text-align: center;
@@ -147,6 +149,7 @@ li {
 }
 .presentationplants,.plants1,.plants2,.plants3{
     float: left;
+    margin-left: 5%;
 }
 .presentationplants h2{
     text-align: center;
