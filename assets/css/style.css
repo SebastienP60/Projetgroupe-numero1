@@ -74,7 +74,7 @@ li {
     width: 40%;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 16px;
     text-align: center;
     color: #FFA5A5;
@@ -210,3 +210,29 @@ li {
     color: white;
 }
 /* fin page occasion */
+/* debut page contact */
+#contacttitle{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+.contacttext {
+    color:white;
+    float: left;
+    padding: 5%;
+}
+.contactimg{
+    padding-left: 3%;
+    padding-top: 7%;
+    float: left;
+    margin-left: 5%;
+}
+iframe {
+    padding-left: 13%;
+    float: left;
+}
+table, td {
+border: solid 1px white;
+color: white;
+margin-left: 600px
+}
