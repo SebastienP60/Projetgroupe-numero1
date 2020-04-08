@@ -1,6 +1,6 @@
 h1 {
     margin-top: 15px;
-    width: 1383px;
+    width: 100%;
     font-family: "Parisienne";
     font-style: normal;
     font-weight: normal;
@@ -14,6 +14,7 @@ h1 {
     width: 100%;
     background-color: #041801;
     background-repeat: no-repeat;
+    float: left;
 }
 #titre {
     float: left;
@@ -22,7 +23,6 @@ h1 {
     background-color: white;
 }
 #menu { 
-    margin-top: -55px;
     float: left;
     height: 60px;
     width: 100%;
@@ -34,17 +34,17 @@ li {
     font-size: 24px;
     width: 20.5%;
 }
-nav li {
+#menu li {
     text-align : center ;
     line-height: 40px ;
 }
-nav li a 
+#menu li a 
 {
     display: block ;
     text-decoration: none ;
     color : #000000;
 }
-nav li:hover
+#menu li:hover
 {
     background-color: #ff7506;
     border-radius: 10px;
@@ -53,31 +53,29 @@ nav li:hover
     display: none;
 }
 #imglogo {
-    position: absolute;
-    width: 162px;
-    height: 155px;
-    left: 0px;
-    top: 0px;
+    float: left;
+    margin-left: 30px;
+}
+#presentationConteneur {
+    float: left;
+    margin-top: 200px;
+    height: 390px;
+    width: 100%;
 }
 #imgboutique {
-    position: absolute;
-    width: 605px;
-    height: 266px;
-    left: 29px;
-    top: 371px;
+    float: left;
+    width: 50%;
+    margin-left: 30px;
 }
-#paragraph {
-    position: absolute;
-    width: 718px;
-    height: 396px;
-    left: 651px;
-    top: 295px;
+.paragraph {
+    float: left;
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 40%;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
-    display: flex;
-    align-items: center;
     text-align: center;
     color: #FFA5A5;
 }
@@ -88,11 +86,10 @@ nav li:hover
     background-color: rgba(185, 202, 139, 0.53);
 }
 #evenementPhrase {
-    position: absolute;
-    width: 616px;
+    width: 100%;
     height: 44px;
-    left: 383px;
-    top: 790px;
+    margin: 0 auto;
+    margin-top: 8px;
     font-family: "La Belle Aurore";
     font-style: normal;
     font-weight: normal;
@@ -105,45 +102,87 @@ nav li:hover
     width: 200px;
     height: 200px;
 }
+.presentationbouquet,.bouquet1,.bouquet2,.bouquet3{
+    float: left;
+    margin-left: 5%;
+}
+.presentationbouquet h2{
+    text-align: center;
+    font-size: 2em;
+}
+.presentationbouquet p{
+    font-size: 1.3em;
+    color: white;
+    width: 400px;
+    text-align: center;
+}
+.bouquets figcaption{
+    width: 200px;
+    text-align: center;
+    color: white;
+}
 .composition img{
     width: 200px;
     height: 200px;
+}
+.presentationcomposition,.composition1,.composition2,.composition3{
+    float: left;
+    margin-left: 5%;
+}
+.presentationcomposition h2{
+    text-align: center;
+    font-size: 2em;
+}
+.presentationcomposition p{
+    font-size: 1.3em;
+    color: white;
+    width: 400px;
+    text-align: center;
+}
+.composition figcaption{
+    width: 200px;
+    text-align: center;
+    color: white;
 }
 .plants img{
     width: 200px;
     height: 200px;
 }
-figcaption{
-    width: 200px;
-    text-align: center;
-}
-.presentationbouquet,.bouquet1,.bouquet2,.bouquet3{
-    float: left;
-}
-.presentationcomposition,.composition1,.composition2,.composition3{
-    float: left
-}
 .presentationplants,.plants1,.plants2,.plants3{
     float: left;
+    margin-left: 5%;
+}
+.presentationplants h2{
+    text-align: center;
+    font-size: 2em;
+}
+.presentationplants p{
+    font-size: 1.3em;
+    color: white;
+    width: 400px;
+    text-align: center;
+}
+.plants figcaption{
+    width: 200px;
+    text-align: center;
+    color: white;
 }
 /* Page occasion: Thomas*/
 .occasionConteneur {
-    width: 1900px;
+    float: left;
+    width: 100%;
     height: 200px;
-    margin-top: 15px;
-    background-color: teal;
+    margin-top: 50px;
+}
+.occasionImages {
+    float: left;
+    width: 80%;
+    height: 200px;
 }
 .occasionTextConteneur {
     float: left;
     width: 20%;
     height: 200px;
-    background-color: wheat;
-}
-#weddingImages {
-    float: left;
-    width: 80%;
-    height: 200px;
-    background-color: blue;
 }
 .occasionText {
     margin: 0 auto;
@@ -153,22 +192,21 @@ figcaption{
     font-size: 48px;
     text-align: center;
     padding-bottom: 0px;
+    color: white;
 }
 .occasionText p {
     font-size: 18px;
     text-align: center;
-}
-.occasionImages {
-    text-align: center;
+    color: white;
 }
 .occasionProducts {
     float: left;
-    margin-left: 95px;
+    margin-left: 5%;
     height: 160px;
     width: 160px;
 }
 .occasionProducts figcaption {
     text-align: center;
+    color: white;
 }
-
 /* fin page occasion */
