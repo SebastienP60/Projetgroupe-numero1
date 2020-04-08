@@ -65,10 +65,11 @@ li {
 #imgboutique {
     float: left;
     width: 50%;
+    margin-left: 30px;
 }
-#paragraph {
+.paragraph {
     float: left;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 5%;
     width: 40%;
     font-style: normal;
@@ -218,20 +219,38 @@ li {
 .contacttext {
     color:white;
     float: left;
-    padding: 5%;
+    font-size: 30px;
+    text-align: center;
 }
 .contactimg{
-    padding-left: 3%;
-    padding-top: 7%;
     float: left;
-    margin-left: 5%;
+    width: 160px;
+    height: 160px;
 }
 iframe {
     padding-left: 13%;
     float: left;
+    width: 350px;
+    height: 350px;
+    margin-top: 75px;
+}
+.addres {
+    margin: 0 auto;
 }
 table, td {
 border: solid 1px white;
 color: white;
-margin-left: 600px
+margin-left: 800px;
+margin-top: 310px;
+text-align: center;
+}
+table {
+    height: 350px;
+    width: 350px;
+}
+.contactfigur {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-left: 12%;
 }
